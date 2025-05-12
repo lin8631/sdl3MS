@@ -1,0 +1,9 @@
+build
+data
+.vscode
+font
+ffmpeg
+.vs
+out
+*.pdb
+web
