@@ -1,7 +1,0 @@
-
-[submodule "Engine"]
-	path = Engine
-	url = https://github.com/lin8631/2d-Engine.git
-[submodule "Game/3rdparty/wzlibcpp"]
-	path = Game/3rdparty/wzlibcpp
-	url = https://github.com/PShocker/wzlibcpp.git
