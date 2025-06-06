@@ -9,7 +9,7 @@
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
 
-int width = 800;
+int width = 1068;
 int height = 600;
 
 SDL_AppResult SDL_AppIterate(void *appstate)
