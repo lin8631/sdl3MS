@@ -9,7 +9,7 @@
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
 
-int width = 1068;
+int width = 800;
 int height = 600;
 
 SDL_AppResult SDL_AppIterate(void *appstate)
@@ -46,14 +46,7 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
 
     FreeType::init("./Font/");
     //Wz::init("./Data/");
-    //D:\Game\PC\MapleStory\Client\CMS\072\WZ\Ã°ÏÕµºonline
-
-
     Wz::init("C:/MapleStory/Client/sdlMS/Data/");
-
-
-    //Wz::init("D:/Game/PC/MapleStory/Client/CMS/072/WZ/Ã°ÏÕµºonline");
-
 
     Keyboard::init();
     Window::create_window("sdlMS", width, height);
@@ -72,8 +65,6 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
     // World::load_map(222020111);
 
     World::load_map(1000000);
-    //World::load_map(10000);
-
     Player::ent = World::registry->create();
     load_character(0, 0, true, Player::name, Player::ent);
     load_pet(u"5000016", Player::ent);
