@@ -10,3 +10,6 @@
 [submodule "3rdparty/freetype"]
 	path = 3rdparty/freetype
 	url = https://github.com/freetype/freetype.git
+[submodule "重构目录"]
+	path = 重构目录
+	url = https://github.com/lin8631/SDL3MapleStory2.git
