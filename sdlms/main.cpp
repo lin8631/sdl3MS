@@ -12,13 +12,23 @@
 //int width = 1068;
 //int height = 600;
 
-int width = 800;
+int width = 1068;
 int height = 600;
 
 
 SDL_AppResult SDL_AppIterate(void *appstate)
 {
     Window::tick_delta_time();
+
+    // ======== 添加性能监控代码 ========
+
+
+
+
+    // ===============================
+
+
+
     Window::clear();
     animate_run();
     player_statemachine_run();
