@@ -59,15 +59,8 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
     Camera::h = height;
 
     FreeType::init("./Font/");
-    //Wz::init("./Data/");
-    //D:\Game\PC\MapleStory\Client\CMS\072\WZ\√∞œ’µ∫online
-
-
-    Wz::init("C:/MapleStory/Client/sdlMS/Data/");
-
-
-    //Wz::init("D:/Game/PC/MapleStory/Client/CMS/072/WZ/√∞œ’µ∫online");
-
+    Wz::init("./Data/");
+   
 
     Keyboard::init();
     Window::create_window("sdlMS", width, height);
