@@ -12,12 +12,3 @@ git clone --recurse-submodules https://github.com/PShocker/sdlMS.git --depth 1 -
 cmake .. -G Ninja
 ninja
 ```
-
-重构内容:
-
-1.使用SDL3
-
-2.使用entt,全面去除Class
-
-~~3.使用c++20特性,全部模块化~~
-(目前编辑器不支持，又改成头文件形式)
