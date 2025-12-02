@@ -10,9 +10,8 @@
 #include <SDL3/SDL_main.h>
 
 //int width = 1068;
-//int height = 600;
 
-int width = 1068;
+int width = 800;
 int height = 600;
 
 
