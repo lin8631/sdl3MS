@@ -1,8 +1,8 @@
 ﻿[submodule "Engine/SDL"]
 	path = Engine/SDL
 	url = https://github.com/libsdl-org/SDL.git
-[submodule "3rdparty/entt"]
-	path = 3rdparty/entt
+[submodule "Engine/entt"]
+	path = Engine/entt
 	url = https://github.com/skypjack/entt.git
 [submodule "3rdparty/wzlibcpp"]
 	path = 3rdparty/wzlibcpp
@@ -10,6 +10,3 @@
 [submodule "3rdparty/freetype"]
 	path = 3rdparty/freetype
 	url = https://github.com/freetype/freetype.git
-[submodule "重构目录"]
-	path = 重构目录
-	url = https://github.com/lin8631/SDL3MapleStory2.git
