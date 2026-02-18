@@ -1,6 +1,6 @@
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}")
 include_directories("${CMAKE_SOURCE_DIR}/3rdparty/entt/src")
-include_directories("${CMAKE_SOURCE_DIR}/3rdparty/SDL/include")
+include_directories("${CMAKE_SOURCE_DIR}/Engine/SDL/include")
 include_directories("${CMAKE_SOURCE_DIR}/3rdparty/wzlibcpp")
 include_directories("${CMAKE_SOURCE_DIR}/3rdparty/wzlibcpp/include")
 include_directories("${CMAKE_SOURCE_DIR}/3rdparty/wzlibcpp/mio/include")

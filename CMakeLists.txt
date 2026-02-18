@@ -24,3 +24,4 @@ endif()
 
 add_subdirectory(3rdparty EXCLUDE_FROM_ALL)
 add_subdirectory(sdlms)
+add_subdirectory(Engine EXCLUDE_FROM_ALL)

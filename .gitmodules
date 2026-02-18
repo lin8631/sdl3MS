@@ -1,5 +1,5 @@
-[submodule "3rdparty/SDL"]
-	path = 3rdparty/SDL
+﻿[submodule "Engine/SDL"]
+	path = Engine/SDL
 	url = https://github.com/libsdl-org/SDL.git
 [submodule "3rdparty/entt"]
 	path = 3rdparty/entt
